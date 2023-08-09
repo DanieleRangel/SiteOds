@@ -1,0 +1,22 @@
+header {
+  position: relative;
+  /* Isso é necessário para que o carrossel seja posicionado relativamente ao header */
+  z-index: 2;
+  /* Isso coloca o header na frente do carrossel */
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100px);
+  /* Isso cria um gradiente que é totalmente transparente até 100px e depois totalmente branco */
+}
+
+
+::-webkit-scrollbar {
+  display: none;
+}
+ 
+.topo {
+    background-image: url('https://virmondes.com.br/wp-content/uploads/2022/01/agenda2030.jpg');
+    background-color: #0a0a0a;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
